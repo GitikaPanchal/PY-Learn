@@ -1,0 +1,18 @@
+import mysql.connector 
+
+mydb=mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Geetu05$",  
+    database="appdb",
+    )
+
+my_cursor=mydb.cursor()
+
+#my_cursor.execute("CREATE DATABASE appdb")
+
+#def db():
+    #my_cursor.execute("CREATE TABLE users(name VARCHAR(255), age INTEGER(25), user_id INTEGER AUTO_INCREMENT PRIMARY KEY)")
+    #my_cursor.execute("SHOW TABLES")
+    #my_cursor.execute("ALTER TABLE users ADD COLUMN grade INTEGER(25)")
+    #sqlentry="INSERT INTO users(name, age, grade) VALUES (%s, %s, %s)"
